@@ -10,9 +10,7 @@ public class LinkedListMain {
         linkedList.print();
         System.out.println();
 
-        if (linkedList.search(30) != null)
-            System.out.println("Element Found in list");
-        else
-            System.out.println("Element not Found in list");
+        System.out.println(linkedList.insertAfter(30,40));
+        linkedList.print();
     }
 }
