@@ -40,4 +40,10 @@ public class LinkedList<T> {
         head.next = node;
         node.next = tail;
     }
+
+    public T pop(){
+        T deletedData = head.data;
+        head = head.next;
+        return deletedData;
+    }
 }
